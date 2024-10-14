@@ -52,7 +52,7 @@
     color: #ddd;
     font-weight: bold;
   }
-  & img{
+   .im1{
     object-fit: cover;
     background-position: center;
     width: 100%;
@@ -397,7 +397,7 @@ justify-content: center;
      
 
     }
-    & img{
+    .im1{
       object-fit: cover;
       background-position: center; 
       background-size: cover;
