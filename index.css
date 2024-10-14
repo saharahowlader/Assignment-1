@@ -1,0 +1,679 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+  display: flex;
+  gap:20%;
+  margin: 20px;
+  justify-content: space-between;
+
+.logo{
+ & img{
+  object-fit: cover;
+  background-position: center;
+  width: 100%;
+  height:auto;
+ }
+ }
+
+.offer1{
+  list-style: none;
+  display: flex;
+  align-items: center;
+ text-align: center;
+  white-space: nowrap;
+    margin-left: 50px;
+
+  & li{
+    font-size: 20px;
+    margin-left: 20px; 
+  }
+}
+}
+.nav{
+  display: flex;
+  margin-right: 20px;
+
+  & button{
+    padding:1px  20px;
+   border-radius: 6px;
+   border: 0;
+   outline: 0;
+    white-space: nowrap;
+    margin-right: 10px;
+  }
+
+   :nth-child(2){
+    background-color: #121313;
+    color: #ddd;
+    font-weight: bold;
+  }
+  & img{
+    object-fit: cover;
+    background-position: center;
+    width: 100%;
+    background-size: cover;
+    height: auto;
+  }
+}
+/*header part end*/
+
+.container{
+  width: 100%;
+   background: url(Rectangle\ 1.png);
+   background-size: cover;
+   background-position: center;
+object-fit: cover;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.form{      
+  border: 2px solid  black;
+ padding: 30px 50px;
+ background:white;
+ border: 0;
+align-items: center;
+justify-content: center;
+}
+
+.offer{
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.selection{
+  padding: 7px ;
+
+& select{
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 0;
+  background: #ddd;
+}    
+}
+.offer2{
+  padding: 5px;
+  display: flex;
+ gap:5px; 
+ padding-bottom: 20px;
+ 
+& input{
+  padding:2px 14% ;
+  border-radius: 5px;
+  border: 0;
+ background:#ddd;
+}   
+& button{
+  padding: 5px 16px;
+  border-radius: 5px;
+  border: 0;
+  background:#53ccd7;
+  cursor: pointer;
+  font-weight: bold;
+  white-space: nowrap;
+ }
+}
+input::placeholder{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+ color: black;  
+}
+.btn{
+display: flex;
+margin-top: 9%;
+
+& button{
+  position:relative;
+  padding: 8px 16px;
+  border-radius: 15px;
+ border: 2px solid white;
+  background: transparent;
+  color:white;
+}
+}
+
+/*icon section*/
+
+.icon{
+  background: yellow;
+  & h1{
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+  }
+
+& img{
+  width: 100%;
+  height: auto;
+  background-position: center;
+  background-size: cover;
+}  
+}
+
+/*1con section end*/
+
+/*feature section*/
+
+
+.feature{
+ width: 100%;
+ height: auto;
+ 
+& h1{
+  padding: 30px;
+  font-size: 27px;
+}
+ .method{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+   padding: 20px;
+   white-space: nowrap;
+.a{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .im{
+    width: 50px;
+  }
+}   
+ }
+
+& h2{
+ padding: 10px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+& p{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ padding-bottom: 15px;
+}
+& h3{
+  padding: 10px;
+}
+ }
+ .btnn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+  & button{
+    padding: 8px 15px;
+    background: transparent;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+ } 
+
+/* buy sell section */
+
+.buy-sell{
+  
+    width:100%;
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+   .box{
+    padding: 20px;
+    width: 500px;
+  & h2{
+    padding: 20px;
+    text-align: center; 
+  }
+   }
+   .navbar{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   }
+   .option{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid ;
+    padding: 8px 12px;
+    border-radius: 6px;
+    white-space: nowrap;
+  .price{
+    margin-left: 14px;
+  }
+   }
+   & img{
+    width: 30px;
+     margin-right: 10px;
+   }
+   .method{
+    font-weight: bold; 
+   }
+   .view-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px ;
+  & button{
+    padding: 8px 20px;
+    background-color: #333;
+    color: #ddd;
+    border-radius: 12px;
+    border: 0;
+    cursor: pointer;
+  }
+   }
+  }
+  /*buy sell section end*/
+  /*sign-up section start*/
+  .sign-up{
+    background: rgb(248, 139, 248);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    font-size: 50px;
+    white-space: nowrap;
+.bu{
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+    .butn{
+      padding:10px 20px;
+      border-radius: 20px;
+      border: 0;
+      background: #333;
+      color: #ddd;
+      cursor: pointer;
+    }
+  }
+  /*sign up section end*/
+  /*support section*/
+  .support{
+    display: flex;   
+    width: 100%;
+    height: auto;
+    background-color: #333;
+    color: #ddd;
+    padding: 30px;
+ & h1{
+  font-size: 35px;
+  padding:0 30px;
+ }
+   
+.footer{
+ display: flex;
+ align-items: center;
+ justify-content:center;
+ gap: 100px;
+ margin-left: 20%;
+.terms{
+ display: flex;
+ flex-direction: column;
+justify-content: center;
+
+& h3{
+ padding-bottom: 20px;
+}
+  & li{
+    list-style: none;
+}
+}
+}
+}
+.login{
+  color: #ddd;
+  background-color: #333;
+  padding: 30px;
+}
+
+/*responsive*/
+
+
+@media(max-width:600px){
+
+  .header{
+    
+    display: flex;
+    gap:px;
+    margin:3px;
+    justify-content: space-between;
+  
+  .logo{
+    display:;   
+   & img{
+   background-position: center;
+   width:125px;
+   padding: 10px;
+   margin-top: 10px;
+  
+   }
+   }
+  
+  .offer1{
+    list-style: none;
+    display:none;
+  
+    & li{
+      font-size: 14px;
+      margin-left: 10px; 
+    }
+  }
+  }
+  .nav{
+    display:flex;
+    justify-content: right;
+  padding: 10px;
+    & button{
+     
+      padding:1px  2px;
+     border-radius: 6px;
+     border: 0;
+     outline: 0;
+      white-space: nowrap;
+      margin-right: 5px;
+    }
+  
+     :nth-child(2){
+      background-color: #41d3af;
+      color: #100f0f;
+      font-weight: bold;
+     
+
+    }
+    & img{
+      object-fit: cover;
+      background-position: center; 
+      background-size: cover;
+       width: ;
+    }
+  }
+  /*header part end*/
+  .container{
+    width: 100%;
+    height: 50%;
+    
+  object-fit: cover;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form{      
+    border: 2px solid ;
+   padding: 10px 20px;
+background:linear-gradient(rgba(0,0,0,0.5));
+   border: 0;
+}
+.offer{
+    font-size: 13px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.selection{
+    padding: 7px ;
+&  :nth-child(2) {
+    padding-right: 48%;
+} 
+
+& select{
+    padding: 5px 30%;
+    display: flex;
+    flex-direction: column;
+   margin-bottom: 6px;
+    border-radius: 5px;
+    border: 0;
+    background: #ddd;
+  }  
+}      
+.offer2{
+    padding: 1px;
+    display: flex;
+    flex-direction: column;
+   gap:5px; 
+  
+   
+& input{
+    padding:5px 14px;
+    border-radius: 5px;
+    border: 0;
+   
+}   
+& button{
+    padding: 5px 14px;
+    border-radius: 5px;
+    border: 0;
+    background-color:rgb(71, 241, 202);
+    font-weight: bold;
+}
+}
+/*icon section*/
+
+.icon{
+  background: yellow;
+  & h1{
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+  }
+
+& img{
+  width: 100%;
+  height: auto;
+  background-position: center;
+  background-size: cover;
+}  
+}
+
+/*1con section end*/
+
+
+/*feature section*/
+
+
+.feature{
+  width: 100%;
+  height: auto;
+  
+ & h1{
+   padding-left: 10px;
+   font-size: 24px;
+ }
+  .method{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 30px;
+    padding: 20px;
+    white-space: nowrap;
+ .a{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   .im{
+     width: 40px;
+   }
+ }   
+  }
+ 
+ & h2{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+ & p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 13px;
+ }
+ & h3{
+   padding: 10px;
+ }
+  }
+  .btnn{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding-bottom: 17px;
+   & button{
+     padding: 8px 12px;
+     background: transparent;
+     border-radius: 20px;
+     font-weight: bold;
+     cursor: pointer;
+   }
+  } 
+
+  /* buy sell section */
+
+.buy-sell{
+  
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  gap:1px;
+  justify-content: center;
+  align-items: center;
+ .box{
+  padding: 10px;
+  width: 350px;
+& h2{
+  padding: 20px;
+  text-align: center; 
+}
+ }
+ .navbar{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+ }
+ .option{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  border: 1px solid ;
+  padding: 8px 10px;
+  border-radius: 6px;
+  white-space: nowrap;
+.price{
+  margin-left: 10px;
+}
+ }
+ & img{
+  width: 23px;
+   margin-right: 10px;
+ }
+ .method{
+  font-weight: bold; 
+ }
+ .view-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px ;
+& button{
+  padding: 8px 20px;
+  background-color: #333;
+  color: #ddd;
+  border-radius: 12px;
+  border: 0;
+  cursor: pointer;
+}
+ }
+}
+/*buy sell section end*/
+/*sign-up section start*/
+.sign-up{
+  background: rgb(248, 139, 248);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  font-size: 20px;
+  white-space: nowrap;
+.bu{
+padding-top: 20px;
+padding-bottom: 20px;
+}
+  .butn{
+    padding:10px 20px;
+    border-radius: 20px;
+    border: 0;
+    background: #333;
+    color: #ddd;
+    cursor: pointer;
+  }
+}
+/*sign up section end*/
+/*support section*/
+.support{
+  display: flex;   
+  width: 100%;
+  height: auto;
+  background-color: #333;
+  color: #ddd;
+  padding: 20px;
+& h1{
+font-size: 20px;
+padding:0 5px;
+}
+ 
+.footer{
+display: flex;
+
+align-items: center;
+justify-content:center;
+gap: 10px;
+margin-left: 20px;
+.terms{
+display: flex;
+flex-direction: column;
+
+
+& h3{
+padding-bottom: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+white-space: nowrap;
+font-size: 16px;
+
+}
+& li{
+  list-style: none;
+  white-space: nowrap;
+  font-size: 10px;
+ 
+}
+}
+}
+}
+.login{
+color: #ddd;
+background-color: #333;
+padding: 20px;
+font-size: 10px;
+
+}
+
+}
+
+  
+
