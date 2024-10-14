@@ -351,12 +351,17 @@ justify-content: center;
     justify-content: space-between;
   
   .logo{
-    display:;   
+    padding: 10px;
+   margin-top: 10px;
+      
    & img{
    background-position: center;
-   width:125px;
-   padding: 10px;
-   margin-top: 10px;
+   width: 100%;
+   height: auto;
+   background-size: cover;  
+   background-repeat: no-repeat;
+   object-fit: cover;
+   
   
    }
    }
@@ -396,7 +401,7 @@ justify-content: center;
       object-fit: cover;
       background-position: center; 
       background-size: cover;
-       width: ;
+      
     }
   }
   /*header part end*/
@@ -415,7 +420,6 @@ justify-content: center;
   .form{      
     border: 2px solid ;
    padding: 10px 20px;
-background:linear-gradient(rgba(0,0,0,0.5));
    border: 0;
 }
 .offer{
@@ -425,6 +429,7 @@ background:linear-gradient(rgba(0,0,0,0.5));
 }
 .selection{
     padding: 7px ;
+    
 &  :nth-child(2) {
     padding-right: 48%;
 } 
